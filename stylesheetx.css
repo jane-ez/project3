@@ -1,0 +1,98 @@
+/*:root{
+    color: #0c0b0b;
+    color: #833c02;
+    color: rgb(233, 242, 250);
+
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+.bgaccent, .bgdark{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+h1, h2 {
+    color: #833c02;
+    font-weight: 900;
+    line-height: 1;
+}
+h1,
+h2,
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.textcenter {
+    text-align: center;
+}
+
+header
+section{
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+@media (min-width: 49em;) {
+    header
+section{
+    padding: 6rem 0rem 6rem 0rem;
+}
+
+.split{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 49em) {
+    .split{
+        flex-direction: row;
+    }
+    .split > + {
+        flex-basis: 100%;
+    }
+    #po2 {
+        align-self: center;
+        margin-left: 2em;
+    }
+
+}
+
+.narrow {
+    max-width: 49rem;
+}
+
+.bglight {
+    background-color: rgb(220, 248, 144);
+
+}
+
+.bgdark{
+    background-color: #0c0b0b;
+    color: rgb(233, 242, 250);
+}
+
+.bgaccent{
+    background-color: #833c02;
+    color: rgb(233, 242, 250);
+}
+
+.bgdark h2,
+.bgaccent h2 {
+    color: rgb(233, 242, 250)
+}

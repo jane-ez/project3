@@ -1,0 +1,97 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.bgaccent, .bgdark{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #833c02;
+    font-weight: 900;
+    line-height: 1;
+}
+h1,
+h2,
+p {
+    margin: 1em 1em;
+    /* margin-bottom: 1em;
+    margin-top: 1em; */
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-left: 1em;
+}
+header {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.textcenter {
+    text-align: center;
+}
+
+.container {
+    margin: inline auto;
+    width: 90%;
+}
+.split{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 49em) {
+    .split{
+        flex-direction: row;
+    }
+    .split > + {
+        flex-basis: 100%;
+    }
+    #po2 {
+        align-items: ;
+        margin-left: 2em;
+    }
+
+}
+
+.narrow {
+    max-width: 38rem;
+} 
+
+@media (min-width: 49rem;) {
+    .bglight #narrow{
+        min-width: 100%;
+        text-align: center;
+    }
+    
+}
+.bglight {
+    background-color: rgb(220, 248, 144);
+
+}
+
+.bgdark{
+    background-color: #0c0b0b;
+    color: rgb(233, 242, 250);
+}
+
+.bgaccent{
+    background-color: #833c02;
+    color: rgb(233, 242, 250);
+}
+
+.bgdark h2,
+.bgaccent h2 {
+    color: rgb(233, 242, 250)
+}
